@@ -87,7 +87,7 @@ h6 {
 }
 
 a {
-	color: #4489b1;
+	color: #FD781E;;
 	transition: color 0.2s ease;
 	text-decoration: none;
 
@@ -95,3 +95,21 @@ a {
 		color: #73a9c9;
 	}
 }
+
+a.link-button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	padding: 3px 9px;
+}
+
+span.category {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	text-transform: lowercase;
+	border-style: solid;
+	border: gray;
+	border-radius: 9px;
+	border-width: thin;
+	padding: 3px 9px;
+}
+

@@ -16,9 +16,12 @@ navigation_order: 2
 	
 	<ul style="list-style-type: circle;">
 		{% for book in books %}
-		<li>{{book.citation}}</li>
+		<li>{{book.citation}} 
+		<a href="{{book.link}}" class="link-button">➢</a><br> <span class="category"  style="border-style: solid;">{{book.media}}</span> <span class="category"  style="border-style: solid;">{{book.language}}</span></li>
 		{% endfor %}
 	</ul>
 		
 <!-- <li>{{row.citation}}<br><a href="{{row.link}}">Link</a></li> -->
 </div>
+
+𐃆
