@@ -60,11 +60,17 @@ h1 {
 
 span.subtitle {
 	color: #FD781E;
+
 }
 
-span.subtitle:hover {
-	color: 4489b1;
+a.title:hover span.subtitle, a.title:hover {
+	font-size: 110%;
 }
+
+a.title:hover {
+	color: black
+}
+
 
 h2 {
 	font-size: 3.6rem;
