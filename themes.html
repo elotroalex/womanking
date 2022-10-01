@@ -1,0 +1,24 @@
+---
+title: Themes
+call_to_action: Contact
+background_image_path:
+large_header: false
+show_in_navigation: true
+navigation_order: 2
+---
+
+<div class="editable">
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ratione, aspernatur qui esse ipsum at quam. Minima ut, recusandae quo enim nam quas quae. Fuga, vel nobis? Ipsa, architecto maxime.</p>	
+
+	
+	{% assign books = site.data.bib | where:"media", "book" %}
+	
+	
+	<ul style="list-style-type: circle;">
+		{% for book in books %}
+		<li>{{book.citation}}</li>
+		{% endfor %}
+	</ul>
+		
+<!-- <li>{{row.citation}}<br><a href="{{row.link}}">Link</a></li> -->
+</div>
