@@ -9,7 +9,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: "https://womankingsyllabus.github.io//images/frontpage.png"
+logo: "https://womankingsyllabus.github.io/images/logo.png"
 description: The Woman King Syllabus is an open educational resource meant to aid the study of the historical period and themes explored in the movie The Woman King.
 author:
   name: Ana Lucia Araujo
@@ -35,8 +35,8 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /images/frontpage.png
-      image: /images/frontpage.png
+      background_image_path: https://womankingsyllabus.github.io/images/logo.png
+      image: https://womankingsyllabus.github.io/images/logo.png
   -
     scope:
       path: ""
