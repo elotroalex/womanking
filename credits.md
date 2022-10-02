@@ -27,8 +27,18 @@ navigation_order: 4
 
 <p class="centered">𐃆𐃆𐃆</p>
 
+<div class='flex-grid'>
+    <div class='picture col'>
+        <figure style="text-align: center;">
+        <img src="/images/vanessa.jpg" width="80%" alt="Pitcture of Vanessa Holden" />
+        </figure>
+    </div>
+    <div class='bio col'>
+       <a href="https://history.as.uky.edu/users/vnho222"><strong>Dr. Vanessa M. Holden</strong></a> has a dual appointment in both the Department of History department and the program in African American and Africana Studies at the University of Kentucky. Her research focuses on African American women and slavery in the antebellum South. Her areas of interest are the history resistance and rebellion, gender history, and the history of sex/sexuality. She is the author of <em>Surviving Southampton: African American Women and Resistance in Nat Turner’s Community</em> (University of Illinois Press, July 2021). 
+    </div>
+</div>
 
-#### [Vanessa goes here by alphabetical order]
+
 
 <p class="centered">𐃆𐃆𐃆</p>
 
