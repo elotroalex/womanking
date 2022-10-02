@@ -48,8 +48,8 @@ h6 {
 }
 
 h1 {
-	font-size: 6.5rem;
-	line-height: 80px;
+	font-size: 5rem;
+	line-height: 5rem;
 	margin: 0 -10px 0 0;
 
 	@media (min-width: $mobile-break) {
@@ -117,10 +117,15 @@ span.category {
 	border-radius: 9px;
 	border-width: thin;
 	padding: 3px 9px;
+
+	@media (max-width: $mobile-break) {
+		font-size: 1.5rem;
+	}
 }
 
 p.centered {
 	text-align: center;
 	padding-top: 2rem;
 }
+
 

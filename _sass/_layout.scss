@@ -17,6 +17,7 @@ body {
 }
 
 header {
+	background-image: url('/images/logo-small.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: calc(50% - 40px) 175px;
@@ -28,6 +29,7 @@ header {
 	}
 
 	@media (min-width: $mobile-break) {
+		background-image: url('/images/frontpage.png');
 		background-size: contain;
 		background-position: calc(50% - 300px) calc(100% + 20px);
 
@@ -53,6 +55,10 @@ header {
 				display: inline-block;
 				margin: 0 10px;
 			}
+		}
+
+		@media (max-width: $mobile-break) {
+			font-size: 1.6rem;
 		}
 	}
 }
@@ -92,6 +98,10 @@ section {
 .main {
 	@extend .light-section;
 	font-size: 2.25rem;
+
+	@media (max-width: $mobile-break) {
+		font-size: 1.8rem;
+	}
 }
 
 .light-section {
@@ -260,12 +270,20 @@ footer {
 		position: relative;
 		top: -2px;
 	}
+
+	@media (max-width: $mobile-break) {
+		margin: 10px;
+	}
 }
 
 .testimonial-message {
 	@extend .box;
 	font-style: italic;
 	position: relative;
+
+	@media (max-width: $mobile-break) {
+		line-height: 2rem;
+	}
 }
 
 .testimonial-message::before,
@@ -389,4 +407,14 @@ footer {
 	.flex-grid {
 	  display: block;
 	}
-  }
+
+	// header {
+	// 	background-image: url('/images/logo-small.png');
+	// 	background-size: 100px;
+
+	// }
+
+
+}
+
+
