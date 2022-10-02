@@ -12,11 +12,11 @@ navigation_order: 2
 	
 	<!-- <p>The syllabus also lists the genre (book, article, etc) and the language (English, Portuguese, etc). If you want to narrow down the list to a particular genre or language you can easily do so using Ctrl + F (Windows) or Cmmd + F (Mac) on your browser, and searching for the right term (book, Portuguese, etc)</p> -->
 
-	<!-- African women in the era of the Atlantic slave trade -->
-	
-	{% assign documents = site.data.bib | where:"theme", "African women in the era of the Atlantic slave trade" %}
-	
-	<h3 id="african-women">African women in the era of the Atlantic slave trade</h3>
+	<!-- History of Dahomey -->
+
+	{% assign documents = site.data.bib | where:"theme", "History of Dahomey" %}
+
+	<h3 id="history-dahomey">History of Dahomey</h3>
 	<ul style="list-style-type: circle;">
 		{% for document in documents %}
 		<li>{{document.citation}} 
@@ -26,19 +26,6 @@ navigation_order: 2
 
 	<p class="centered">𐃆𐃆𐃆</p>
 
-	<!-- Afro-Brazilians in the Bight of Benin -->
-
-	{% assign documents = site.data.bib | where:"theme", "Afro-Brazilians in the Bight of Benin" %}
-
-	<h3 id="afro-brazilians">Afro-Brazilians in the Bight of Benin</h3>
-	<ul style="list-style-type: circle;">
-		{% for document in documents %}
-		<li>{{document.citation}} 
-		<a href="{{document.link}}" class="link-button" target="_blank">➢</a><br> <span class="category"  style="border-style: solid;">{{document.media}}</span> <span class="category"  style="border-style: solid;">{{document.language}}</span></li>
-		{% endfor %}
-	</ul>
-
-	<p class="centered">𐃆𐃆𐃆</p>
 
 	<!-- Agodjie, women warriors and Fon women -->
 
@@ -54,11 +41,11 @@ navigation_order: 2
 
 	<p class="centered">𐃆𐃆𐃆</p>
 
-	<!-- Art, artifacts, human remains -->
+	<!-- Vodun religion -->
 
-	{% assign documents = site.data.bib | where:"theme", "Art, artifacts, human remains" %}
+	{% assign documents = site.data.bib | where:"theme", "Vodun religion" %}
 
-	<h3 id="art">Art, artifacts, human remains</h3>
+	<h3 id="vodun">Vodun religion</h3>
 	<ul style="list-style-type: circle;">
 		{% for document in documents %}
 		<li>{{document.citation}} 
@@ -82,6 +69,53 @@ navigation_order: 2
 
 	<p class="centered">𐃆𐃆𐃆</p>
 
+	<!-- Afro-Brazilians in the Bight of Benin -->
+
+	{% assign documents = site.data.bib | where:"theme", "Afro-Brazilians in the Bight of Benin" %}
+
+	<h3 id="afro-brazilians">Afro-Brazilians in the Bight of Benin</h3>
+	<ul style="list-style-type: circle;">
+		{% for document in documents %}
+		<li>{{document.citation}} 
+		<a href="{{document.link}}" class="link-button" target="_blank">➢</a><br> <span class="category"  style="border-style: solid;">{{document.media}}</span> <span class="category"  style="border-style: solid;">{{document.language}}</span></li>
+		{% endfor %}
+	</ul>
+
+	<p class="centered">𐃆𐃆𐃆</p>
+
+
+
+	<!-- African women in the era of the Atlantic slave trade -->
+	
+	{% assign documents = site.data.bib | where:"theme", "African women in the era of the Atlantic slave trade" %}
+	
+	<h3 id="african-women">African women in the era of the Atlantic slave trade</h3>
+	<ul style="list-style-type: circle;">
+		{% for document in documents %}
+		<li>{{document.citation}} 
+		<a href="{{document.link}}" class="link-button" target="_blank">➢</a><br> <span class="category"  style="border-style: solid;">{{document.media}}</span> <span class="category"  style="border-style: solid;">{{document.language}}</span></li>
+		{% endfor %}
+	</ul>
+
+	<p class="centered">𐃆𐃆𐃆</p>
+
+
+	<!-- Art, artifacts, human remains -->
+
+	{% assign documents = site.data.bib | where:"theme", "Art, artifacts, human remains" %}
+
+	<h3 id="art">Art, artifacts, human remains</h3>
+	<ul style="list-style-type: circle;">
+		{% for document in documents %}
+		<li>{{document.citation}} 
+		<a href="{{document.link}}" class="link-button" target="_blank">➢</a><br> <span class="category"  style="border-style: solid;">{{document.media}}</span> <span class="category"  style="border-style: solid;">{{document.language}}</span></li>
+		{% endfor %}
+	</ul>
+
+	<p class="centered">𐃆𐃆𐃆</p>
+
+
+
 	<!-- Heritage sites -->
 
 	{% assign documents = site.data.bib | where:"theme", "Heritage sites" %}
@@ -96,19 +130,6 @@ navigation_order: 2
 
 	<p class="centered">𐃆𐃆𐃆</p>
 
-	<!-- History of Dahomey -->
-
-	{% assign documents = site.data.bib | where:"theme", "History of Dahomey" %}
-
-	<h3 id="history-dahomey">History of Dahomey</h3>
-	<ul style="list-style-type: circle;">
-		{% for document in documents %}
-		<li>{{document.citation}} 
-		<a href="{{document.link}}" class="link-button" target="_blank">➢</a><br> <span class="category"  style="border-style: solid;">{{document.media}}</span> <span class="category"  style="border-style: solid;">{{document.language}}</span></li>
-		{% endfor %}
-	</ul>
-
-	<p class="centered">𐃆𐃆𐃆</p>
 
 	<!-- Oyo empire, Kingdom of Oyo -->
 
@@ -138,19 +159,6 @@ navigation_order: 2
 
 	<p class="centered">𐃆𐃆𐃆</p>
 
-	<!-- Vodun religion -->
-
-	{% assign documents = site.data.bib | where:"theme", "Vodun religion" %}
-
-	<h3 id="vodun">Vodun religion</h3>
-	<ul style="list-style-type: circle;">
-		{% for document in documents %}
-		<li>{{document.citation}} 
-		<a href="{{document.link}}" class="link-button" target="_blank">➢</a><br> <span class="category"  style="border-style: solid;">{{document.media}}</span> <span class="category"  style="border-style: solid;">{{document.language}}</span></li>
-		{% endfor %}
-	</ul>
-
-	<p class="centered">𐃆𐃆𐃆</p>
 
 	<!-- Academics on The Woman King -->
 
