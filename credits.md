@@ -8,7 +8,7 @@ navigation_order: 4
 ---
 
 
-#slaveryarchive is a hashtag that Ana Lucia Araujo started curating seven years ago in order to gather all kinds of news associated with slavery and the Atlantic slave trade, including the creation or removal of monuments, the unveiling of museums and exhibitions, and memorials, as well as conferences and books related to these two human atrocities. You can read <a href="https://www.tumblr.com/araujohistorian">a brief history of the #slaveryarchive</a> on Araujo's Tumblr. When the global COVID19 pandemic started in March 2020, Alex Gil, Jessica Marie Johnson and Vanessa Holden joined Araujo to form the #slaveryarchive book club to discuss and promote books related to the history of slavery, the Atlantic slave trade, Africa, and the Atlantic world.
+#slaveryarchive is a hashtag that Ana Lucia Araujo started curating seven years ago in order to gather news associated with slavery and the Atlantic slave trade, including the creation or removal of monuments, the unveiling of museums and exhibitions, and memorials, as well as conferences and books related to these two human atrocities. You can read <a href="https://www.tumblr.com/araujohistorian">a brief history of the #slaveryarchive</a> on Araujo's Tumblr. Near the early days of the global COVID19 pandemic, in March 2020, Alex Gil, Jessica Marie Johnson and Vanessa Holden joined Araujo to form the #slaveryarchive Book Club to discuss and promote books related to the history of slavery, the Atlantic slave trade, Africa, and the Atlantic world.
 
 <p class="centered">𐃆𐃆𐃆</p>
 
