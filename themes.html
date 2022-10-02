@@ -114,7 +114,7 @@ navigation_order: 2
 
 	{% assign documents = site.data.bib | where:"theme", "Oyo empire, Kingdom of Oyo" %}
 
-	<h3>Oyo empire, Kingdom of Oyo</h3>
+	<h3 id="oyo">Oyo empire, Kingdom of Oyo</h3>
 	<ul style="list-style-type: circle;">
 		{% for document in documents %}
 		<li>{{document.citation}} 
